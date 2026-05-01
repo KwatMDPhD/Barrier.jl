@@ -180,7 +180,7 @@ for (st, he, st_, N) in (
     Library.write_radar(
         joinpath(Barrier.P2, "Immunogram $st.html"),
         st_,
-        ["Healthy", "Sample"],
+        ("Healthy", "Sample"),
         N,
         ("#c6c2b6", he),
         Dict(
