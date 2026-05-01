@@ -1,0 +1,10 @@
+name = "Barrier"
+uuid = "b080a364-7180-4ad6-8364-9dd050dfef50"
+version = "0.1.0"
+authors = ["KwatMDPhD"]
+
+[deps]
+Library = "2fc41b51-9601-4a00-91b4-1eb9d061c450"
+
+[sources]
+Library = { path = "../Library.jl" }
